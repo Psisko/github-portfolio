@@ -1,0 +1,121 @@
+﻿  camera.cpp
+  fire.cpp
+  light.cpp
+  main.cpp
+  shader.cpp
+  singlemesh.cpp
+  skybox.cpp
+  Generování kódu...
+fire.obj : error LNK2019: Nerozpoznaný externí symbol "unsigned int __cdecl pgr::createTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)" (?createTexture@pgr@@YAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z) odkazovaný ve funkci "public: __cdecl Fire::Fire(class std::shared_ptr<class Shader>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct glm::tvec3<float,0> const &,float const &,float const &,struct glm::tvec3<float,0> const &,unsigned int const &)" (??0Fire@@QEAA@V?$shared_ptr@VShader@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBU?$tvec3@M$0A@@glm@@AEBM32AEBI@Z)
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol "unsigned int __cdecl pgr::createTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)" (?createTexture@pgr@@YAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z)
+fire.obj : error LNK2019: Nerozpoznaný externí symbol "void __cdecl pgr::checkGLError(char const *,int)" (?checkGLError@pgr@@YAXPEBDH@Z) odkazovaný ve funkci "public: __cdecl Fire::Fire(class std::shared_ptr<class Shader>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct glm::tvec3<float,0> const &,float const &,float const &,struct glm::tvec3<float,0> const &,unsigned int const &)" (??0Fire@@QEAA@V?$shared_ptr@VShader@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBU?$tvec3@M$0A@@glm@@AEBM32AEBI@Z)
+main.obj : error LNK2001: Nerozpoznaný externí symbol "void __cdecl pgr::checkGLError(char const *,int)" (?checkGLError@pgr@@YAXPEBDH@Z)
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol "void __cdecl pgr::checkGLError(char const *,int)" (?checkGLError@pgr@@YAXPEBDH@Z)
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol "void __cdecl pgr::checkGLError(char const *,int)" (?checkGLError@pgr@@YAXPEBDH@Z)
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glBlendFunc
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glDepthMask
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glDepthMask
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glDisable
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glDisable
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glEnable
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glEnable
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glStencilFunc
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glStencilFunc
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glStencilOp
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glStencilOp
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glBindTexture
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glBindTexture
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glBindTexture
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glDrawArrays
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glDrawArrays
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glBindBuffer
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glBindBuffer
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glBindBuffer
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glBufferData
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glBufferData
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glBufferData
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glGenBuffers
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glGenBuffers
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glGenBuffers
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glEnableVertexAttribArray
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glEnableVertexAttribArray
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glEnableVertexAttribArray
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glUniform1f
+main.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glUniform1f
+shader.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glUniform1f
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glUniform1f
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glUniformMatrix4fv
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glUniformMatrix4fv
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glUniformMatrix4fv
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glUseProgram
+main.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glUseProgram
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glUseProgram
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glUseProgram
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glVertexAttribPointer
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glVertexAttribPointer
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glVertexAttribPointer
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glBindVertexArray
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glBindVertexArray
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glBindVertexArray
+fire.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glGenVertexArrays
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glGenVertexArrays
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glGenVertexArrays
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutInitWindowSize odkazovaný ve funkci main
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutInitDisplayMode odkazovaný ve funkci main
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutMainLoop odkazovaný ve funkci main
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutPostRedisplay odkazovaný ve funkci "void __cdecl passiveMouseMotionCb(int,int)" (?passiveMouseMotionCb@@YAXHH@Z)
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutSwapBuffers odkazovaný ve funkci "void __cdecl displayCb(void)" (?displayCb@@YAXXZ)
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutWarpPointer odkazovaný ve funkci "void __cdecl passiveMouseMotionCb(int,int)" (?passiveMouseMotionCb@@YAXHH@Z)
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutSetCursor odkazovaný ve funkci "void __cdecl passiveMouseMotionCb(int,int)" (?passiveMouseMotionCb@@YAXHH@Z)
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutTimerFunc odkazovaný ve funkci "void __cdecl timerCb(int)" (?timerCb@@YAXH@Z)
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutKeyboardFunc odkazovaný ve funkci main
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutSpecialFunc odkazovaný ve funkci main
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutReshapeFunc odkazovaný ve funkci main
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutDisplayFunc odkazovaný ve funkci main
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutMouseFunc odkazovaný ve funkci main
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutMotionFunc odkazovaný ve funkci main
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutPassiveMotionFunc odkazovaný ve funkci main
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutSpecialUpFunc odkazovaný ve funkci main
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutGet odkazovaný ve funkci "void __cdecl timerCb(int)" (?timerCb@@YAXH@Z)
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp___glutInitWithExit odkazovaný ve funkci glutInit_ATEXIT_HACK
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp___glutCreateWindowWithExit odkazovaný ve funkci glutCreateWindow_ATEXIT_HACK
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutLeaveMainLoop odkazovaný ve funkci "void __cdecl keyboardCb(unsigned char,int,int)" (?keyboardCb@@YAXEHH@Z)
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutCloseFunc odkazovaný ve funkci main
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutInitContextVersion odkazovaný ve funkci main
+main.obj : error LNK2019: Nerozpoznaný externí symbol __imp_glutInitContextFlags odkazovaný ve funkci main
+main.obj : error LNK2019: Nerozpoznaný externí symbol "bool __cdecl pgr::initialize(int,int,enum pgr::DebugLevel)" (?initialize@pgr@@YA_NHHW4DebugLevel@1@@Z) odkazovaný ve funkci main
+main.obj : error LNK2019: Nerozpoznaný externí symbol "void __cdecl pgr::dieWithError(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?dieWithError@pgr@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) odkazovaný ve funkci main
+main.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glClear
+main.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glClearStencil
+main.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glReadPixels
+main.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glGetAttribLocation
+main.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glGetUniformLocation
+shader.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glGetUniformLocation
+main.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glUniform3fv
+shader.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glUniform3fv
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glUniform3fv
+shader.obj : error LNK2019: Nerozpoznaný externí symbol "unsigned int __cdecl pgr::createShaderFromFile(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?createShaderFromFile@pgr@@YAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) odkazovaný ve funkci "public: void __cdecl Shader::load_Shader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?load_Shader@Shader@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+shader.obj : error LNK2019: Nerozpoznaný externí symbol "unsigned int __cdecl pgr::createProgram(class std::vector<unsigned int,class std::allocator<unsigned int> > const &)" (?createProgram@pgr@@YAIAEBV?$vector@IV?$allocator@I@std@@@std@@@Z) odkazovaný ve funkci "public: void __cdecl Shader::load_Shader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?load_Shader@Shader@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+shader.obj : error LNK2019: Nerozpoznaný externí symbol "void __cdecl pgr::deleteProgramAndShaders(unsigned int)" (?deleteProgramAndShaders@pgr@@YAXI@Z) odkazovaný ve funkci "public: __cdecl Shader::~Shader(void)" (??1Shader@@QEAA@XZ)
+singlemesh.obj : error LNK2019: Nerozpoznaný externí symbol aiGetMaterialFloatArray odkazovaný ve funkci "private: bool __cdecl SingleMesh::loadSingleMesh(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadSingleMesh@SingleMesh@@AEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+singlemesh.obj : error LNK2019: Nerozpoznaný externí symbol aiGetMaterialColor odkazovaný ve funkci "private: bool __cdecl SingleMesh::loadSingleMesh(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadSingleMesh@SingleMesh@@AEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+singlemesh.obj : error LNK2019: Nerozpoznaný externí symbol aiGetMaterialString odkazovaný ve funkci "public: enum aiReturn __cdecl aiMaterial::Get(char const *,unsigned int,unsigned int,struct aiString &)const " (?Get@aiMaterial@@QEBA?AW4aiReturn@@PEBDIIAEAUaiString@@@Z)
+singlemesh.obj : error LNK2019: Nerozpoznaný externí symbol "public: __cdecl Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QEAA@XZ) odkazovaný ve funkci "private: bool __cdecl SingleMesh::loadSingleMesh(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadSingleMesh@SingleMesh@@AEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+singlemesh.obj : error LNK2019: Nerozpoznaný externí symbol "public: __cdecl Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QEAA@XZ) odkazovaný ve funkci "private: bool __cdecl SingleMesh::loadSingleMesh(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadSingleMesh@SingleMesh@@AEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+singlemesh.obj : error LNK2019: Nerozpoznaný externí symbol "public: bool __cdecl Assimp::Importer::SetPropertyInteger(char const *,int)" (?SetPropertyInteger@Importer@Assimp@@QEAA_NPEBDH@Z) odkazovaný ve funkci "private: bool __cdecl SingleMesh::loadSingleMesh(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadSingleMesh@SingleMesh@@AEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+singlemesh.obj : error LNK2019: Nerozpoznaný externí symbol "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@PEBDI@Z) odkazovaný ve funkci "private: bool __cdecl SingleMesh::loadSingleMesh(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadSingleMesh@SingleMesh@@AEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+singlemesh.obj : error LNK2019: Nerozpoznaný externí symbol "public: char const * __cdecl Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QEBAPEBDXZ) odkazovaný ve funkci "private: bool __cdecl SingleMesh::loadSingleMesh(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadSingleMesh@SingleMesh@@AEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glPolygonMode
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glTexParameteri
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glTexParameteri
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glDrawElements
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glBufferSubData
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glBufferSubData
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glDeleteBuffers
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glUniform1i
+singlemesh.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glDeleteVertexArrays
+skybox.obj : error LNK2019: Nerozpoznaný externí symbol "bool __cdecl pgr::loadTexImage2D(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?loadTexImage2D@pgr@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z) odkazovaný ve funkci "public: void __cdecl Skybox::loadTexture(void)" (?loadTexture@Skybox@@QEAAXXZ)
+skybox.obj : error LNK2001: Nerozpoznaný externí symbol _ptrc_glGenTextures
+D:\6.Semestr\6.semestr-here-i-come\PGR\pgr-framework\lib\pgrd.lib : warning LNK4272: Typ počítače knihovny x86 koliduje s typem cílového počítače x64.
+D:\6.Semestr\6.semestr-here-i-come\PGR\pgr-framework\lib\freeglut.lib : warning LNK4272: Typ počítače knihovny x86 koliduje s typem cílového počítače x64.
+D:\portfolio\github-portfolio\OpenGL\src\x64\Debug\krulipat.exe : fatal error LNK1120: Počet nerozpoznaných externích typů: 71
